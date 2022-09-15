@@ -15,7 +15,6 @@ import Dados from "./src/Pages/dados";
 
 import Luz from "./src/Pages/Home/screen/luz";
 import Sens from "./src/Pages/Home/screen/sens";
-import Seg from "./src/Pages/Home/screen/seg";
 
 import Led1 from "./src/Pages/Home/screen/luz/leds/led1";
 import Led2 from "./src/Pages/Home/screen/luz/leds/led2";
@@ -71,7 +70,6 @@ export default function App() {
 
           <Stack.Screen name="Luz" component={Luz}/>
           <Stack.Screen name="sens" component={Sens}/>
-          <Stack.Screen name="Seg" component={Seg}/>
 
           <Stack.Screen name="led1" component={Led1}/>
           <Stack.Screen name="led2" component={Led2}/>
